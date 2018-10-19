@@ -1,0 +1,133 @@
+body {
+  background: #F2F7FF;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  display: block;
+  text-align: center;
+  min-width: 320px;
+  color: #333;
+}
+
+#title {
+  font-size: 42px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+ color: #444444;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+}
+
+
+#form-outer {
+  background: #FFE867;
+  width: 75%;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 900px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(50,50,50, 0.4);
+  margin-bottom: 20px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+  font-size: 0.95em;
+  color: 
+}
+#name,
+#email,
+#number{
+  border: 2px solid #0B409C;
+  border-radius: 5px;
+}
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+  font-size: 0.9em
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  border: 2px solid #0B409C;
+  border-radius: 5px;
+}
+
+#userAge {
+  width: 40px;
+}
+
+.userRatings,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+#submit {
+  background: #0B409C;
+  border-radius: 8px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  border: 0px solid;
+}
+
+.dropdown{
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border: 2px solid #0B409C;
+  border-radius: 5px;
+}
+
+.radio, .checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+input[type='checkbox'],
+input[type='radio']{
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+}
